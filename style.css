@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bdc1c5;
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 900px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-color: rgb(223, 217, 217);
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
