@@ -18,6 +18,8 @@ body {
 h2 {
   text-align: center;
   margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 .container {
@@ -33,4 +35,7 @@ h2 {
   border-color: rgb(223, 217, 217);
   font-weight: bold;
   letter-spacing: 10px;
+}
+.btn:hover {
+  color: #fff !important;
 }
