@@ -13,7 +13,7 @@ bmiButton.addEventListener('click', () => {
 
   if ((massInput.value !== '') & (heightInput.value !== '')) {
     // let siUnit = 'kg / m2';
-    bmiResult.textContent = `${result}kg/m2`;
+    bmiResult.textContent = `${result} kg/m2`;
     massInput.value = '';
     heightInput.value = '';
   }
