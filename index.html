@@ -22,6 +22,7 @@
       <div class="row mt-5">
         <div class="col input">
           <input
+            id="mass"
             type="number"
             class="form-control"
             placeholder="Mass"
@@ -30,6 +31,7 @@
         </div>
         <div class="col input">
           <input
+            id="height"
             type="number"
             class="form-control"
             placeholder="Height"
@@ -39,20 +41,25 @@
       </div>
       <div class="col text-center button">
         <button
+          id="bmi-button"
           type="button"
           class="btn btn-outline-primary text-dark mt-5 mb-4"
         >
           BMI
         </button>
         <button
+          id="bmi-clear"
           type="button"
           class="btn btn-outline-primary text-dark mt-5 mb-4"
         >
           CLEAR
         </button>
-        <h4 id ="bmi-result"></h4>
+        <h4 id="bmi-result"></h4>
+        <h4 id="bmi-stats"></h4>
       </div>
     </div>
+    <script src="https://bit.ly/3qWuu77"></script>
+    <script src="app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
