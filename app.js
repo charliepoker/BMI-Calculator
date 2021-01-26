@@ -27,11 +27,11 @@ bmiButton.addEventListener('click', () => {
     bmiStats.textContent = 'you are overweight 😞';
     bmiStats.style.color = 'red';
   } else if (result >= 30 && result <= 39.9) {
-    bmiStats.textContent = 'you are obessed 😢';
+    bmiStats.textContent = 'you are in the obese range 😢';
     bmiStats.style.color = 'red';
   } else {
     bmiStats.innerHTML =
-      '<span class="blinking">you are extremely obessed 😭</span>';
+      '<span class="blinking">you are extremely overweight 😭</span>';
   }
 });
 
